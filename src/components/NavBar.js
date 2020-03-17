@@ -229,7 +229,7 @@ class NavBar extends React.Component {
                 </>
               ))}
             </Nav.Link>
-            <Nav.Link href="#">
+            <Nav.Link href="https://www.melanieharris.dev">
               <i
                 class="fas fa-user-circle icon-space"
                 style={{ fontSize: "25px", color: "#8e8e8e" }}
