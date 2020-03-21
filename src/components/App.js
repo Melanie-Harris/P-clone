@@ -4,8 +4,9 @@ import unsplash from "../api/unsplash";
 import SearchBar from "./SearchBar";
 import NavBar from "./NavBar";
 import Notice from "./Notice";
-import LandingImages from "./PopUp";
+// import LandingImages from "./PopUp";
 import ImageList from "./ImageList";
+
 
 class App extends React.Component {
   state = { images: [], show: false, defaultImages: [] };

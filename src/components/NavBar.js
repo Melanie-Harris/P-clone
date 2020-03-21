@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                 </Button>
               </Nav.Link>
               <Nav.Link href="#link">
-                <Button className="button-props button-hover" variant="">
+                <Button className="button-props mobile-hide button-hover" variant="">
                   Following
                 </Button>
               </Nav.Link>
@@ -141,7 +141,7 @@ class NavBar extends React.Component {
                     }
                   >
                     <i
-                      class="fas fa-bell icon-space"
+                      class="fas i fa-bell icon-space"
                       style={{ fontSize: "25px", color: "#8e8e8e" }}
                     >
                       {placement}
@@ -220,7 +220,7 @@ class NavBar extends React.Component {
                     }
                   >
                     <i
-                      class="fas fa-comment-dots icon-space"
+                      class="fas fa-comment-dots i icon-space"
                       style={{ fontSize: "25px", color: "#8e8e8e" }}
                     >
                       {placement}
@@ -231,7 +231,7 @@ class NavBar extends React.Component {
             </Nav.Link>
             <Nav.Link href="https://www.melanieharris.dev" target="_blank">
               <i
-                class="fas fa-user-circle icon-space"
+                class="fas i fa-user-circle icon-space"
                 style={{ fontSize: "25px", color: "#8e8e8e" }}
               ></i>
             </Nav.Link>
